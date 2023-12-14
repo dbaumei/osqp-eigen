@@ -39,8 +39,8 @@ option(BUILD_SHARED_LIBS "Build libraries as shared as opposed to static" ON)
 # However, this could expose cross-platform bugs in user code or in the headers
 # of third-party dependencies and thus it is strongly suggested to turn
 # extensions off.
-set(CMAKE_C_EXTENSIONS OFF)
-set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_C_EXTENSIONS ON)
+set(CMAKE_CXX_EXTENSIONS ON)
 
 # add GNU dirs
 include(GNUInstallDirs)
